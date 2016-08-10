@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto Hangouts
 // @namespace    http://grabcad.com
-// @version      0.2.5
+// @version      0.2.6
 // @description  Unmute and auto-join
 // @author       alex
 // @match        https://*.google.com/hangouts/_/*
