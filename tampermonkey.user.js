@@ -7,8 +7,8 @@
 // @match        https://*.google.com/hangouts/_/*
 // @grant        none
 // @run-at       document-end
-// @updateURL https://github.com/jaxer/autohangouts/raw/master/tampermonkey.user.js
-// @downloadURL https://github.com/jaxer/autohangouts/raw/master/tampermonkey.user.js
+// @updateURL https://raw.githubusercontent.com/jaxer/autohangouts/master/tampermonkey.user.js
+// @downloadURL https://raw.githubusercontent.com/jaxer/autohangouts/master/tampermonkey.user.js
 // ==/UserScript==
 
 (function () {
