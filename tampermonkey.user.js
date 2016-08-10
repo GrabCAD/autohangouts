@@ -7,7 +7,7 @@
 // @match        https://*.google.com/hangouts/_/*
 // @grant        none
 // @run-at       document-end
-// @downloadURL https://gist.github.com/jaxer/e4b071d97fc00649d60b37c3be73a6c9.js
+// @downloadURL https://github.com/jaxer/autohangouts/raw/master/tampermonkey.user.js
 // ==/UserScript==
 
 (function () {
