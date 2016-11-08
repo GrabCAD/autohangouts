@@ -34,10 +34,15 @@
         }
     }, 1000);
 
-    setInterval(function () {
+    var unmuteInterval = setInterval(function () {
         var unmuteButton = document.querySelector('div[role=button][aria-label*="Unmute microphone"]');
         if (unmuteButton) {
             simulateClick(unmuteButton);
+            clearInterval(unmuteInterval);
         }
     }, 1000);
+
+    setTimeout(function () {
+        clearInterval(unmuteInterval);
+    }, 5000);
 })();
